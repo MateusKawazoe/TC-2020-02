@@ -1,0 +1,11 @@
+{
+  "name": "Projeto1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "https://github.com/MateusKawazoe/TC-2020-02.git",
+  "author": "Mateuskwz <mateus.takeshi@ykt.com.br>",
+  "license": "MIT"
+}
