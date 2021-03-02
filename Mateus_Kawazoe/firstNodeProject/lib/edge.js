@@ -1,8 +1,6 @@
 module.exports = class Edge {
 
     constructor(min, max, minIndex, maxIndex) {
-        var min, max, minIndex, maxIndex
-
         this.min = min
         this.max = max
         this.minIndex = minIndex
