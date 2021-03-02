@@ -10,7 +10,7 @@ describe('NumFinder', () => {
     })
 
     test('test an unordered array', () => {
-        numFinder.find([-99, 5,1, 10, 300, -790, 6])
+        numFinder.find([-99, 5, 1, 10, 300, -790, 6])
         expect(numFinder.biggest).toBe(300)
         expect(numFinder.smallest).toBe(-790)
     })
@@ -23,7 +23,7 @@ describe('NumFinder', () => {
 
     test('test array with objects and numbers', () => {
         expect(() => {
-            numFinder.find([1, 2, 3, {nome: 'joao'}, 5, 6])
+            numFinder.find([1, 2, 3, { nome: 'joao' }, 5, 6])
         }).toThrow('invalid array')
     })
 })
